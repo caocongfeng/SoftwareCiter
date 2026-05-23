@@ -4,6 +4,12 @@ An AI-powered agent that reads academic papers, extracts software mentions, enri
 
 ---
 
+## 🏗️ Architecture
+
+![Overview of SoftwareCiter](./softwareCiter-Page-2.png)
+
+---
+
 ## ✨ Features
 
 - 📄 **Multi-format Parser** — Reads XML (JATS/NLM), plain text; handles malformed XML robustly
@@ -19,9 +25,7 @@ An AI-powered agent that reads academic papers, extracts software mentions, enri
 
 ---
 
-## 🏗️ Architecture
 
-![Overview of SoftwareCiter](./softwareCiter-Page-2.png)
 
 
 ### Module Overview
