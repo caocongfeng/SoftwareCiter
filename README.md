@@ -21,7 +21,8 @@ An AI-powered agent that reads academic papers, extracts software mentions, enri
 
 ## 🏗️ Architecture
 
-[softwareCiter-Page-2.png](./softwareCiter-Page-2.png)
+![Overview of SoftwareCiter](./softwareCiter-Page-2.png)
+
 
 ### Module Overview
 
