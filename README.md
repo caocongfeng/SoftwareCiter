@@ -21,21 +21,7 @@ An AI-powered agent that reads academic papers, extracts software mentions, enri
 
 ## 🏗️ Architecture
 
-```
-Paper (XML/TXT)
-    │
-    ▼
-┌──────────┐     ┌────────────┐     ┌────────────┐     ┌─────────────────┐     ┌────────────┐
-│  Parser  │────▶│ Extractor  │────▶│  Searcher  │────▶│ Citation Builder│────▶│  Verifier  │
-│          │     │            │     │            │     │                 │     │            │
-│ XML→Text │     │ LLM finds  │     │ DuckDuckGo │     │ FORCE11 format  │     │ 9 checks + │
-│ + split  │     │ software   │     │ + LLM      │     │ + LLM polish    │     │ LLM + web  │
-└──────────┘     └────────────┘     └────────────┘     └─────────────────┘     └────────────┘
-                                                                                     │
-                                                                                     ▼
-                                                                              FORCE11 Citations
-                                                                              (Text/JSON/BibTeX)
-```
+[softwareCiter-Page-2.png](./softwareCiter-Page-2.png)
 
 ### Module Overview
 
