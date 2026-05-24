@@ -407,7 +407,7 @@ See [`ANNOTATION_README.md`](ANNOTATION_README.md) for full documentation on ann
 
 ---
 
-## 📁 Project Structure
+<!--## 📁 Project Structure
 
 ```
 software_citation_agent/
@@ -487,7 +487,7 @@ software_citation_agent/
 └── README.md                          # This file
 ```
 
----
+----->
 
 ## 🔧 Configuration
 
